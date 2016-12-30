@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373B2E1D1CEFD00E00C3B3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E1C1CEFD00E00C3B3D5 /* AppDelegate.swift */; };
+		373B2E1F1CEFD00E00C3B3D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E1E1CEFD00E00C3B3D5 /* ViewController.swift */; };
+		373B2E211CEFD00E00C3B3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373B2E201CEFD00E00C3B3D5 /* Assets.xcassets */; };
+		373B2E241CEFD00E00C3B3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373B2E221CEFD00E00C3B3D5 /* Main.storyboard */; };
+		373B2E3D1CEFD07B00C3B3D5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E2B1CEFD07B00C3B3D5 /* Card.swift */; };
+		373B2E3E1CEFD07B00C3B3D5 /* Classs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E2C1CEFD07B00C3B3D5 /* Classs.swift */; };
+		373B2E401CEFD07B00C3B3D5 /* Curse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E2E1CEFD07B00C3B3D5 /* Curse.swift */; };
+		373B2E411CEFD07B00C3B3D5 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E2F1CEFD07B00C3B3D5 /* Deck.swift */; };
+		373B2E431CEFD07B00C3B3D5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E311CEFD07B00C3B3D5 /* Item.swift */; };
+		373B2E441CEFD07B00C3B3D5 /* LevelUpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E321CEFD07B00C3B3D5 /* LevelUpCard.swift */; };
+		373B2E451CEFD07B00C3B3D5 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E331CEFD07B00C3B3D5 /* Monster.swift */; };
+		373B2E461CEFD07B00C3B3D5 /* OutToLunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E341CEFD07B00C3B3D5 /* OutToLunch.swift */; };
+		373B2E471CEFD07B00C3B3D5 /* MonsterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E351CEFD07B00C3B3D5 /* MonsterModifier.swift */; };
+		373B2E481CEFD07B00C3B3D5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E361CEFD07B00C3B3D5 /* Player.swift */; };
+		373B2E491CEFD07B00C3B3D5 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E371CEFD07B00C3B3D5 /* Race.swift */; };
+		373B2E4B1CEFD07B00C3B3D5 /* InvisibilityPotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E391CEFD07B00C3B3D5 /* InvisibilityPotion.swift */; };
+		373B2E4C1CEFD07B00C3B3D5 /* SingleUseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B2E3A1CEFD07B00C3B3D5 /* SingleUseItem.swift */; };
+		37A0C8FB1D3FDFBF00E1E56F /* Tutorial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 37A0C8FA1D3FDFBF00E1E56F /* Tutorial.pdf */; };
+		37A1086F1D370A3200BECE75 /* Rules.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 37A1086E1D370A3200BECE75 /* Rules.pdf */; };
+		3F06DE951D1B42EA0020D37C /* CurseOnLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06DE941D1B42EA0020D37C /* CurseOnLevels.swift */; };
+		3F06DE971D1B44AF0020D37C /* CurseOnItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06DE961D1B44AF0020D37C /* CurseOnItems.swift */; };
+		3F06DE991D1B44BD0020D37C /* CurseOnRacesAndClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06DE981D1B44BD0020D37C /* CurseOnRacesAndClasses.swift */; };
+		3F2EABBB1D0DDDE10080B8E7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EABBA1D0DDDE10080B8E7 /* Game.swift */; };
+		3F3BA9751D136E2C006F5585 /* WishingRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA9741D136E2C006F5585 /* WishingRing.swift */; };
+		3F4F934D1D1B8C3D00642B9D /* BadStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F934C1D1B8C3D00642B9D /* BadStuff.swift */; };
+		3F4F93511D1B8E0400642B9D /* BadStuffOnHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F93501D1B8E0400642B9D /* BadStuffOnHand.swift */; };
+		3F4F93531D1B8E0D00642B9D /* BadStuffDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F93521D1B8E0D00642B9D /* BadStuffDeath.swift */; };
+		3F4F93551D1B907F00642B9D /* BadStuffOnLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F93541D1B907F00642B9D /* BadStuffOnLevels.swift */; };
+		3F5B8D231D0890BA0063776A /* Dwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B8D221D0890BA0063776A /* Dwarf.swift */; };
+		3F5B8D251D0890F50063776A /* Elf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B8D241D0890F50063776A /* Elf.swift */; };
+		3F5B8D271D0891040063776A /* Halfling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B8D261D0891040063776A /* Halfling.swift */; };
+		3F5B8D291D0891140063776A /* Cleric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B8D281D0891140063776A /* Cleric.swift */; };
+		3F5B8D2D1D0891270063776A /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B8D2C1D0891270063776A /* Warrior.swift */; };
+		3F5B8D2F1D08912E0063776A /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B8D2E1D08912E0063776A /* Wizard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		373B2E191CEFD00E00C3B3D5 /* Munchkin V_1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Munchkin V_1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373B2E1C1CEFD00E00C3B3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373B2E1E1CEFD00E00C3B3D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373B2E201CEFD00E00C3B3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373B2E231CEFD00E00C3B3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373B2E251CEFD00E00C3B3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373B2E2B1CEFD07B00C3B3D5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		373B2E2C1CEFD07B00C3B3D5 /* Classs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classs.swift; sourceTree = "<group>"; };
+		373B2E2E1CEFD07B00C3B3D5 /* Curse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curse.swift; sourceTree = "<group>"; };
+		373B2E2F1CEFD07B00C3B3D5 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		373B2E311CEFD07B00C3B3D5 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		373B2E321CEFD07B00C3B3D5 /* LevelUpCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelUpCard.swift; sourceTree = "<group>"; };
+		373B2E331CEFD07B00C3B3D5 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		373B2E341CEFD07B00C3B3D5 /* OutToLunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutToLunch.swift; sourceTree = "<group>"; };
+		373B2E351CEFD07B00C3B3D5 /* MonsterModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterModifier.swift; sourceTree = "<group>"; };
+		373B2E361CEFD07B00C3B3D5 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		373B2E371CEFD07B00C3B3D5 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		373B2E391CEFD07B00C3B3D5 /* InvisibilityPotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvisibilityPotion.swift; sourceTree = "<group>"; };
+		373B2E3A1CEFD07B00C3B3D5 /* SingleUseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleUseItem.swift; sourceTree = "<group>"; };
+		37A0C8FA1D3FDFBF00E1E56F /* Tutorial.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tutorial.pdf; sourceTree = "<group>"; };
+		37A1086E1D370A3200BECE75 /* Rules.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rules.pdf; sourceTree = "<group>"; };
+		3F06DE941D1B42EA0020D37C /* CurseOnLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurseOnLevels.swift; sourceTree = "<group>"; };
+		3F06DE961D1B44AF0020D37C /* CurseOnItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurseOnItems.swift; sourceTree = "<group>"; };
+		3F06DE981D1B44BD0020D37C /* CurseOnRacesAndClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurseOnRacesAndClasses.swift; sourceTree = "<group>"; };
+		3F2EABBA1D0DDDE10080B8E7 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3F3BA9741D136E2C006F5585 /* WishingRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishingRing.swift; sourceTree = "<group>"; };
+		3F4F934C1D1B8C3D00642B9D /* BadStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadStuff.swift; sourceTree = "<group>"; };
+		3F4F93501D1B8E0400642B9D /* BadStuffOnHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadStuffOnHand.swift; sourceTree = "<group>"; };
+		3F4F93521D1B8E0D00642B9D /* BadStuffDeath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadStuffDeath.swift; sourceTree = "<group>"; };
+		3F4F93541D1B907F00642B9D /* BadStuffOnLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadStuffOnLevels.swift; sourceTree = "<group>"; };
+		3F5B8D221D0890BA0063776A /* Dwarf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dwarf.swift; sourceTree = "<group>"; };
+		3F5B8D241D0890F50063776A /* Elf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elf.swift; sourceTree = "<group>"; };
+		3F5B8D261D0891040063776A /* Halfling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Halfling.swift; sourceTree = "<group>"; };
+		3F5B8D281D0891140063776A /* Cleric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cleric.swift; sourceTree = "<group>"; };
+		3F5B8D2C1D0891270063776A /* Warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		3F5B8D2E1D08912E0063776A /* Wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373B2E161CEFD00E00C3B3D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373B2E101CEFD00E00C3B3D5 = {
+			isa = PBXGroup;
+			children = (
+				373B2E1B1CEFD00E00C3B3D5 /* Munchkin V_1.0 */,
+				373B2E1A1CEFD00E00C3B3D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373B2E1A1CEFD00E00C3B3D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373B2E191CEFD00E00C3B3D5 /* Munchkin V_1.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373B2E1B1CEFD00E00C3B3D5 /* Munchkin V_1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				373B2E1C1CEFD00E00C3B3D5 /* AppDelegate.swift */,
+				373B2E1E1CEFD00E00C3B3D5 /* ViewController.swift */,
+				3F2EABBA1D0DDDE10080B8E7 /* Game.swift */,
+				373B2E361CEFD07B00C3B3D5 /* Player.swift */,
+				373B2E2F1CEFD07B00C3B3D5 /* Deck.swift */,
+				373B2E2B1CEFD07B00C3B3D5 /* Card.swift */,
+				373B2E371CEFD07B00C3B3D5 /* Race.swift */,
+				3F5B8D221D0890BA0063776A /* Dwarf.swift */,
+				3F5B8D241D0890F50063776A /* Elf.swift */,
+				3F5B8D261D0891040063776A /* Halfling.swift */,
+				373B2E2C1CEFD07B00C3B3D5 /* Classs.swift */,
+				3F5B8D281D0891140063776A /* Cleric.swift */,
+				3F5B8D2C1D0891270063776A /* Warrior.swift */,
+				3F5B8D2E1D08912E0063776A /* Wizard.swift */,
+				373B2E331CEFD07B00C3B3D5 /* Monster.swift */,
+				3F4F934C1D1B8C3D00642B9D /* BadStuff.swift */,
+				3F4F93541D1B907F00642B9D /* BadStuffOnLevels.swift */,
+				3F4F93501D1B8E0400642B9D /* BadStuffOnHand.swift */,
+				3F4F93521D1B8E0D00642B9D /* BadStuffDeath.swift */,
+				373B2E351CEFD07B00C3B3D5 /* MonsterModifier.swift */,
+				373B2E2E1CEFD07B00C3B3D5 /* Curse.swift */,
+				3F06DE941D1B42EA0020D37C /* CurseOnLevels.swift */,
+				3F06DE961D1B44AF0020D37C /* CurseOnItems.swift */,
+				3F06DE981D1B44BD0020D37C /* CurseOnRacesAndClasses.swift */,
+				373B2E311CEFD07B00C3B3D5 /* Item.swift */,
+				373B2E3A1CEFD07B00C3B3D5 /* SingleUseItem.swift */,
+				373B2E321CEFD07B00C3B3D5 /* LevelUpCard.swift */,
+				373B2E341CEFD07B00C3B3D5 /* OutToLunch.swift */,
+				373B2E391CEFD07B00C3B3D5 /* InvisibilityPotion.swift */,
+				3F3BA9741D136E2C006F5585 /* WishingRing.swift */,
+				373B2E201CEFD00E00C3B3D5 /* Assets.xcassets */,
+				373B2E221CEFD00E00C3B3D5 /* Main.storyboard */,
+				373B2E251CEFD00E00C3B3D5 /* Info.plist */,
+				37A1086E1D370A3200BECE75 /* Rules.pdf */,
+				37A0C8FA1D3FDFBF00E1E56F /* Tutorial.pdf */,
+			);
+			path = "Munchkin V_1.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373B2E181CEFD00E00C3B3D5 /* Munchkin V_1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373B2E281CEFD00E00C3B3D5 /* Build configuration list for PBXNativeTarget "Munchkin V_1.0" */;
+			buildPhases = (
+				373B2E151CEFD00E00C3B3D5 /* Sources */,
+				373B2E161CEFD00E00C3B3D5 /* Frameworks */,
+				373B2E171CEFD00E00C3B3D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Munchkin V_1.0";
+			productName = "Munchkin V_1.0";
+			productReference = 373B2E191CEFD00E00C3B3D5 /* Munchkin V_1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373B2E111CEFD00E00C3B3D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Moyerman";
+				TargetAttributes = {
+					373B2E181CEFD00E00C3B3D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 373B2E141CEFD00E00C3B3D5 /* Build configuration list for PBXProject "Munchkin V_1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373B2E101CEFD00E00C3B3D5;
+			productRefGroup = 373B2E1A1CEFD00E00C3B3D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373B2E181CEFD00E00C3B3D5 /* Munchkin V_1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373B2E171CEFD00E00C3B3D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A0C8FB1D3FDFBF00E1E56F /* Tutorial.pdf in Resources */,
+				373B2E211CEFD00E00C3B3D5 /* Assets.xcassets in Resources */,
+				37A1086F1D370A3200BECE75 /* Rules.pdf in Resources */,
+				373B2E241CEFD00E00C3B3D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373B2E151CEFD00E00C3B3D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F06DE951D1B42EA0020D37C /* CurseOnLevels.swift in Sources */,
+				373B2E441CEFD07B00C3B3D5 /* LevelUpCard.swift in Sources */,
+				373B2E461CEFD07B00C3B3D5 /* OutToLunch.swift in Sources */,
+				3F5B8D231D0890BA0063776A /* Dwarf.swift in Sources */,
+				373B2E471CEFD07B00C3B3D5 /* MonsterModifier.swift in Sources */,
+				3F3BA9751D136E2C006F5585 /* WishingRing.swift in Sources */,
+				3F06DE971D1B44AF0020D37C /* CurseOnItems.swift in Sources */,
+				3F4F93511D1B8E0400642B9D /* BadStuffOnHand.swift in Sources */,
+				373B2E491CEFD07B00C3B3D5 /* Race.swift in Sources */,
+				3F5B8D2D1D0891270063776A /* Warrior.swift in Sources */,
+				373B2E481CEFD07B00C3B3D5 /* Player.swift in Sources */,
+				3F5B8D271D0891040063776A /* Halfling.swift in Sources */,
+				373B2E431CEFD07B00C3B3D5 /* Item.swift in Sources */,
+				373B2E411CEFD07B00C3B3D5 /* Deck.swift in Sources */,
+				373B2E3E1CEFD07B00C3B3D5 /* Classs.swift in Sources */,
+				3F4F934D1D1B8C3D00642B9D /* BadStuff.swift in Sources */,
+				373B2E1F1CEFD00E00C3B3D5 /* ViewController.swift in Sources */,
+				3F06DE991D1B44BD0020D37C /* CurseOnRacesAndClasses.swift in Sources */,
+				3F4F93551D1B907F00642B9D /* BadStuffOnLevels.swift in Sources */,
+				3F5B8D291D0891140063776A /* Cleric.swift in Sources */,
+				3F2EABBB1D0DDDE10080B8E7 /* Game.swift in Sources */,
+				3F5B8D2F1D08912E0063776A /* Wizard.swift in Sources */,
+				3F5B8D251D0890F50063776A /* Elf.swift in Sources */,
+				373B2E451CEFD07B00C3B3D5 /* Monster.swift in Sources */,
+				373B2E3D1CEFD07B00C3B3D5 /* Card.swift in Sources */,
+				373B2E401CEFD07B00C3B3D5 /* Curse.swift in Sources */,
+				373B2E1D1CEFD00E00C3B3D5 /* AppDelegate.swift in Sources */,
+				3F4F93531D1B8E0D00642B9D /* BadStuffDeath.swift in Sources */,
+				373B2E4C1CEFD07B00C3B3D5 /* SingleUseItem.swift in Sources */,
+				373B2E4B1CEFD07B00C3B3D5 /* InvisibilityPotion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		373B2E221CEFD00E00C3B3D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373B2E231CEFD00E00C3B3D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373B2E261CEFD00E00C3B3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373B2E271CEFD00E00C3B3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		373B2E291CEFD00E00C3B3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Munchkin V_1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrymoyerman.Munchkin-V-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		373B2E2A1CEFD00E00C3B3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Munchkin V_1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrymoyerman.Munchkin-V-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373B2E141CEFD00E00C3B3D5 /* Build configuration list for PBXProject "Munchkin V_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B2E261CEFD00E00C3B3D5 /* Debug */,
+				373B2E271CEFD00E00C3B3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373B2E281CEFD00E00C3B3D5 /* Build configuration list for PBXNativeTarget "Munchkin V_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B2E291CEFD00E00C3B3D5 /* Debug */,
+				373B2E2A1CEFD00E00C3B3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373B2E111CEFD00E00C3B3D5 /* Project object */;
+}
